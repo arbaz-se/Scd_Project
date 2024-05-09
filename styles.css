@@ -1,0 +1,118 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Target the scrollbar track (the area behind the scrollbar) */
+::-webkit-scrollbar-track {
+  background-color: #FFFFFF;
+}
+
+/* Target the scrollbar handle (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #7F7F7F;
+  border-radius: 10px;
+}
+
+/* Change scrollbar width*/
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+.header {
+  height: 52px;
+  width: 100vw;
+  background-color: #243965;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  padding-top: 14px;
+}
+
+.learn-more {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #62C6C3;
+}
+
+.learn-more:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.navbar {
+  height: 80px;
+  width: 100vw;
+  background-color: #FFFFFF;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.navbar a {
+  color: #243965;
+  text-decoration: none;
+  padding-left: 0px;
+}
+
+.btn-nav {
+  height: 60px;
+  border: none;
+  border-radius: 25px 25px 25px 25px;
+  width: 130px;
+  height: 40px;
+  color: #243965;
+  background-color: #3A96DB;
+}
+
+.hero-section {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.article-section {
+  padding-left: 50px;
+}
+
+.card {
+  border: none;
+}
+
+.card .card-img-top {
+  height: 30%;
+  border-top-left-radius: 1.5cm;
+  border-bottom-right-radius: 1.5cm;
+}
+
+.card .card-body {
+  padding-left: -20px;
+}
+
+
+
+.list-group {
+  background-color: #192948 !important;
+  color: green;
+}
+
